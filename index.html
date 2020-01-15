@@ -1,10 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" >
+
 <head>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>SVG Element Plotter</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with <a href="https://pages.github.com/" title="Github Pages">GitHub Pages</a>.</p>
+<h1>SVG Element Plotter</h1>
+<div class="input" id = "input">
+  
+  <div class="plotterArea">
+  <label for="plotter">Plotter</label>
+  <span v-html="rawHtml"></span>
+  </div class="plotterArea">
+
+  <div class="inputArea">
+  <label for="inputTextBox">Input Text Box</label>
+  <textarea v-model="message" placeholder="please enter commands" id="inputTextBox" name="inputTextBox" rows="4" cols="50" wrap="off"></textarea>
+
+  <label for="errMsgBox">Error Message</label>
+  <textarea readonly id="errMsgBox" name="errMsgBox" rows="4" cols="50" wrap="off">{{ errorMsg }}</textarea>
+</div>
+</div>
+</div>
+
+
+<script src="vue.js"></script>
+<script  src="script.js"></script>
 </body>
+
 </html>

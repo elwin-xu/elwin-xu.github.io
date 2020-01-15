@@ -1,6 +1,64 @@
 h1 {
-    font-weight: normal;
+    text-align: center;
+    background-color:lightskyblue;
+    padding: 10px;
+    display: block;
+    margin: 0px;
 }
-p {
-    color:red;
+
+div.input{
+    margin: 0px;
+}
+
+div.plotterArea
+{
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+div.inputArea
+{
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+body {
+    margin: 0px;
+    background-color: lightgrey;
+}
+
+label { 
+    padding: 5px;
+}
+
+label,
+textarea {
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+textarea,
+svg {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+textarea{
+    width: 350px;
+}
+svg{
+    width: 250px;
+}
+
+label {
+    text-align: center;
+    display: block;
+    margin: 0px;
 }
