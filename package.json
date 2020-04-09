@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build -r 'https://github.com/zixuan-xu/zixuan-xu.github.io.git'"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
