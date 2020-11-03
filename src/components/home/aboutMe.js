@@ -13,9 +13,9 @@ class AboutMe extends Component {
                                     <img src="/images/profile.jpg" alt="profile" className="w-100 mb-4" />
                                 </Col>
                                 <Col sm={6}>
-                                    <h1>Web Developer</h1>
+                                    <h1>Game Developer</h1>
                                     <h2>Zixuan Xu</h2>
-                                    <p className="lead">Graduated from one of the top universities in China, I started my career as a software engineer in a leading consulting firm in China developing structural design software for professional civil engineers. I'm currently residing in Sydney, Australia, and open to job opportunities.</p>
+                                    <p className="lead">Graduated from one of the top universities in China, I started my career as a software engineer in a leading consulting firm in China developing structural design software for professional civil engineers. I'm currently residing in Sydney, Australia, developing Unity games using C#.</p>
                                 </Col>
                             </Row>
                         </Col>

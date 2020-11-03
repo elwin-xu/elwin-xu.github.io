@@ -8,7 +8,7 @@ class Intro extends Component {
                 <Container fluid>
                     <h1 className="font-weight-bold">Create User-Friendly<br />Software</h1>
                     <p className="mb-5">
-                        Hello! I'm Zixuan Xu, a software engineer focusing on web development.
+                        Hello! I'm Zixuan Xu, a software engineer focusing on game development.
                     </p>
                     <Row noGutters className="align-items-center justify-content-center">
                         <Col xs="2"><img src="/images/game.png" alt="game" className="w-100"/></Col>
