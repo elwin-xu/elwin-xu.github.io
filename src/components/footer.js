@@ -6,7 +6,7 @@ class Footer extends Component {
         return (
             <Jumbotron fluid className="footer mb-0 text-light">
                 <Container fluid>
-                    <p className="text-center">This website is powered by Bootstrap & React.</p>
+                    <p className="text-center">This website is built with Bootstrap & React.</p>
 
                     <Nav className="social-links justify-content-center">
                         <Nav.Item>

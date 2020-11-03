@@ -4,11 +4,12 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import {HashRouter} from 'react-router-dom';
+import {BrowserRouter} from 'react-router-dom';
 
 ReactDOM.render(
-  <HashRouter><App /></HashRouter>,
-  // <BrowserRouter><App /></BrowserRouter>,
+  // <HashRouter><App /></HashRouter>,
+  <BrowserRouter><App /></BrowserRouter>,
+  // <App />,
   document.getElementById('root')
 );
 

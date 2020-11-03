@@ -17,10 +17,9 @@ class ExperienceHome extends Component {
                         </Col>
                         <Col sm={7}>
                             <ul>
-                                <li>QSE (Quality, Safety, and Environment) office tasks</li>
-                                <li>Supported senior project engineers (on-site and off-site)</li>
-                                <li>Maintained all documentation required for the monthly progress approval</li>
-                                <li>Prepared drawings for fire safety inspections and audits</li>
+                                <li>QSE (Quality, Safety, and Environment) office daily tasks including uploading licence documents on the company intranet and updating site rosters with engineers</li>
+                                <li>Supported senior project engineer with site inspection and document archiving</li>
+                                <li>Inspected and updated the locations of fire equipment, and prepared drawings for fire safety inspections and audits</li>
                             </ul>
                         </Col>
                     </Row>
@@ -34,12 +33,12 @@ class ExperienceHome extends Component {
                         </Col>
                         <Col sm={7}>
                             <ul>
+                                <li>Worked on the development of a professional design application used by civil engineers to calculate mechanical responses and prepare structural drawings</li>
+                                <li>Designed user interface using C++ and MFC, and replaced out-of-date UI elements with newest ones, giving the software a modern UI Style</li>
+                                <li>Invited by the customer to go to their company to work with their engineer team to collect customer feedback on our software, which afterwards enabled our team to add several critical features that greatly improved the efficiency of our software</li>
+                                <li>Collaborative development experience working with the team using Git</li>
+                                <li>Implemented JSON serialisation which enabled users to save calculation results</li>
                                 <li>Adopted agile software development methodologies while working closely with teammates and customers</li>
-                                <li>Communicated with customers to research possible improvements of software</li>
-                                <li>Designed user interface and interactive mechanism using C++ and MFC</li>
-                                <li>Implemented saving functionality of calculations using JSON file format</li>
-                                <li>Designed algorithms to match joint components with different sizes</li>
-                                <li>Worked on the project collaboratively on Visual Studio using Git</li>
                             </ul>
                         </Col>
                     </Row>

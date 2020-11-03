@@ -12,17 +12,17 @@ class FeaturedProjects extends Component {
                         <Col sm={11}>
                             <CardDeck>
                                 <Card style={style.card}>
-                                    <Card.Img variant="top" src="images/vue.jpg" />
+                                    <Card.Img variant="top" src="images/react.png" />
                                     <Card.Body>
-                                        <Card.Title>Vue.js SVG Plotter</Card.Title>
+                                        <Card.Title>Personal Blog</Card.Title>
                                         <Card.Text>
-                                            This is an interactive website that can be used to create SVG elements, and it's based on the popular framework Vue.js.
+                                            A personal blog hosted on AWS, with the front-end built with React & UIkit, and the back-end built with Express & MongoDB.
                                         </Card.Text>
                                     </Card.Body>
 
                                     <Card.Footer>
                                         <Card.Link
-                                            href="https://zixuan-xu.github.io/Exercise-Vue.js-SVG-Plotter/"
+                                            href="https://www.zixuanxu.com/"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                         >
@@ -33,21 +33,21 @@ class FeaturedProjects extends Component {
                                     {/* <Card.Link href="#">Another Link</Card.Link> */}
                                 </Card>
                                 <Card style={style.card}>
-                                    <Card.Img variant="top" src="images/count areas.jpg" />
+                                    <Card.Img variant="top" src="images/vue.jpg" />
                                     <Card.Body>
-                                        <Card.Title>Count Areas</Card.Title>
+                                        <Card.Title>SVG Plotter</Card.Title>
                                         <Card.Text>
-                                            An algorithm developed to count the number of areas of the same color.
+                                            An interactive app based on Vue that can be used to create SVG elements via commands.
                                         </Card.Text>
                                     </Card.Body>
 
                                     <Card.Footer>
                                         <Card.Link
-                                            href="https://github.com/zixuan-xu/count-areas"
+                                            href="https://zixuan-xu.github.io/Exercise-Vue.js-SVG-Plotter/"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                         >
-                                            View on Github
+                                            View Website
                                         </Card.Link>
                                     </Card.Footer>
                                     {/* <span> &nbsp;|&nbsp; </span> */}

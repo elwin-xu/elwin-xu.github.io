@@ -46,7 +46,7 @@ class Header extends Component {
                                     className="text-dark text-decoration-none"
                                     onClick={(e) => scrollTo('#aboutMe', e)}
                                 >
-                                    About Me
+                                    About
                                 </a>
                             </Navbar.Text>
                             <Navbar.Text>
